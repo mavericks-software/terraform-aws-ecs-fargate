@@ -134,6 +134,7 @@ Check versions for this module on:
 * lb_arn: Load Balancer ARN
 * lb_arn_suffix: Load Balancer ARN Suffix
 * lb_dns_name: Load Balancer DNS Name
+* lb_listener_arn: Load Balancer Listener ARN
 * lb_zone_id: Load Balancer Zone ID
 
 

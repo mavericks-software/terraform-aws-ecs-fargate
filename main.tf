@@ -62,8 +62,8 @@ module "ecs-fargate-task-definition" {
 # ECS Service
 # ---------------------------------------------------------------------------------------------------------------------
 module "ecs-fargate-service" {
-  source              = "cn-terraform/ecs-fargate-service/aws"
-  version             = "1.0.10"
+  source              = "github.com/mavericks-software/terraform-aws-ecs-fargate-service.git?ref=add-lb-listener-arn-output"
+
   name_preffix        = var.name_preffix
   profile             = var.profile
   region              = var.region

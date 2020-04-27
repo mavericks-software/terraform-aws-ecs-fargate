@@ -120,6 +120,11 @@ output "lb_dns_name" {
   value       = module.ecs-fargate-service.lb_dns_name
 }
 
+output "lb_listener_arn" {
+  description = "$${var.name_preffix} Load Balancer Listener ARN"
+  value       = module.ecs-fargate-service.lb_listener_arn
+}
+
 output "lb_zone_id" {
   description = "$${var.name_preffix} Load Balancer Zone ID"
   value       = module.ecs-fargate-service.lb_zone_id
